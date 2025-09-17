@@ -163,23 +163,23 @@ generate_csv() {
     log_info "Generating CSV for: $section"
     
     # Create CSV header
-    echo "Level 1,Level 2,Level 3,Level 4,Page Title,Href,ToC Level" > "$CSV_FILE"
+    echo "Level 1,Level 2,Level 3,Level 4,Href,ToC Level" > "$CSV_FILE"
     
     # Process structure to create CSV rows
     
     while IFS= read -r line; do
         if [[ "$line" =~ ^-\ \*\*(.*)\*\*\ \(\`(.*)\`\)$ ]]; then
             # Level 1
-            echo "\"${BASH_REMATCH[1]}\",\"\",\"\",\"\",\"${BASH_REMATCH[1]}\",\"${BASH_REMATCH[2]}\",1" >> "$CSV_FILE"
+            echo "\"${BASH_REMATCH[1]}\",\"\",\"\",\"\",\"${BASH_REMATCH[2]}\",1" >> "$CSV_FILE"
         elif [[ "$line" =~ ^\ \ -\ \*\*(.*)\*\*\ \(\`(.*)\`\)$ ]]; then
             # Level 2
-            echo "\"\",\"${BASH_REMATCH[1]}\",\"\",\"\",\"${BASH_REMATCH[1]}\",\"${BASH_REMATCH[2]}\",2" >> "$CSV_FILE"
+            echo "\"\",\"${BASH_REMATCH[1]}\",\"\",\"\",\"${BASH_REMATCH[2]}\",2" >> "$CSV_FILE"
         elif [[ "$line" =~ ^\ \ \ \ -\ \*\*(.*)\*\*\ \(\`(.*)\`\)$ ]]; then
             # Level 3
-            echo "\"\",\"\",\"${BASH_REMATCH[1]}\",\"\",\"${BASH_REMATCH[1]}\",\"${BASH_REMATCH[2]}\",3" >> "$CSV_FILE"
+            echo "\"\",\"\",\"${BASH_REMATCH[1]}\",\"\",\"${BASH_REMATCH[2]}\",3" >> "$CSV_FILE"
         elif [[ "$line" =~ ^\ \ \ \ \ \ -\ \*\*(.*)\*\*\ \(\`(.*)\`\)$ ]]; then
             # Level 4
-            echo "\"\",\"\",\"\",\"${BASH_REMATCH[1]}\",\"${BASH_REMATCH[1]}\",\"${BASH_REMATCH[2]}\",4" >> "$CSV_FILE"
+            echo "\"\",\"\",\"\",\"${BASH_REMATCH[1]}\",\"${BASH_REMATCH[2]}\",4" >> "$CSV_FILE"
         fi
     done <<< "$structure"
     

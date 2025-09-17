@@ -86,13 +86,28 @@ Domain overview
 ```
 ```
 
-### 3. Conduct Content Audit
+### 3. Conduct Content Analysis and Restructuring
 
-Use the generated structure analysis as input for detailed content auditing:
-1. Review each page systematically
-2. Categorize content by user persona and complexity
-3. Identify organizational issues and improvement opportunities
-4. Create reorganization plan
+**Summary**: This phase uses AI to analyze content pages, identify user personas, categorize content by user needs, and propose an improved ToC structure. The process involves setting up content sources (XML files), generating page summaries with persona identification, creating categories based on user journeys, and proposing a restructured ToC organization.
+
+**⚠️ IMPORTANT**: You must run the content analysis prompt in an AI tool (like Q CLI, Amazon Q, Cline, etc.).
+
+**Examples:**
+In the AI tool ask it to:
+```
+Run `prompts/analyze-content-restructure.md` prompt
+```
+
+**AI Workflow Phases:**
+1. **Setup & Validation**: Provide path to XML content files
+2. **Content Summarization**: AI analyzes each page and identifies personas
+3. **Categorization Analysis**: AI groups content by user journey and tasks
+4. **Restructuring Proposal**: AI proposes improved ToC organization with rationale
+
+**Expected Output Files:**
+- `output/content-analysis.csv` (page summaries and persona assignments)
+- `output/restructure-proposal.md` (detailed analysis and rationale)
+- `output/restructure-proposal.csv` (new ToC structure)
 
 ## Customization
 

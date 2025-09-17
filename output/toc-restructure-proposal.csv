@@ -1,0 +1,43 @@
+Level 1,Level 2,Level 3,Level 4,Href,ToC Level,Category
+Domain overview,,,,gs-studio-onboard.html,1,Get Started
+,Get Started,,,gs-studio-onboard.html,2,Get Started
+,,Domain overview,,gs-studio-onboard.html,3,Get Started
+,,SageMaker AI domain entities,,sm-domain.html,3,Get Started
+,,Complete prerequisites,,domain-prerequisites.html,3,Get Started
+,,Choose an Amazon VPC,,onboard-vpc.html,3,Get Started
+,Configure Domain,,,studio-updated-ui-customize-tools-apps.html,2,Configure Domain
+,,Hide ML tools and apps in the Studio UI,,studio-updated-ui-customize-tools-apps.html,3,Configure Domain
+,,,Hide tools and apps on a domain level,studio-updated-ui-customize-tools-apps-domain.html,4,Configure Domain
+,,,Hide tools and apps on a user level,studio-updated-ui-customize-tools-apps-user.html,4,Configure Domain
+,,Hide instance types and images in the Studio UI,,studio-updated-ui-customize-instances-images.html,3,Configure Domain
+,,,Hide instances and images on a domain level,studio-updated-ui-customize-instances-images-domain.html,4,Configure Domain
+,,,Hide instances and images on a user level,studio-updated-ui-customize-instances-images-user.html,4,Configure Domain
+,,Multiple domains setup,,domain-multiple.html,3,Configure Domain
+,,,Automatic tag propagation,domain-multiple-tag.html,4,Configure Domain
+,,,Resource display filtering,domain-multiple-filtering.html,4,Configure Domain
+,,,Backfill domain tags,domain-multiple-backfill.html,4,Configure Domain
+,,Domain isolation and security,,domain-resource-isolation.html,3,Configure Domain
+,,Default settings for domains,,domain-set-defaults.html,3,Configure Domain
+,,Custom tag propagation,,custom-tags.html,3,Configure Domain
+,,,Add custom tags to resources,custom-tags-add.html,4,Configure Domain
+,,,Opt-out of custom tag propagation,custom-tags-opt-out.html,4,Configure Domain
+,,Adding a custom file system,,domain-custom-file-system.html,3,Configure Domain
+,,Edit domain settings,,domain-edit.html,3,Configure Domain
+,,Delete a domain,,gs-studio-delete-domain.html,3,Configure Domain
+,Manage Users & Access,,,domain-user-profile.html,2,Manage Users & Access
+,,Domain user profiles,,domain-user-profile.html,3,Manage Users & Access
+,,,Add user profiles,domain-user-profile-add.html,4,Manage Users & Access
+,,,Remove user profiles,domain-user-profile-remove.html,4,Manage Users & Access
+,,,View user profiles in a domain,domain-user-profile-view.html,4,Manage Users & Access
+,,,View user profile details,domain-user-profile-describe.html,4,Manage Users & Access
+,,IAM Identity Center groups,,domain-groups.html,3,Manage Users & Access
+,,,View groups and users,domain-groups-view.html,4,Manage Users & Access
+,,,Add groups and users,domain-groups-add.html,4,Manage Users & Access
+,,,Remove groups,domain-groups-remove.html,4,Manage Users & Access
+,,Understanding spaces and execution roles,,execution-roles-and-spaces.html,3,Manage Users & Access
+,Monitor & Troubleshoot,,,domain-space-environment.html,2,Monitor & Troubleshoot
+,,View domain environment details,,domain-space-environment.html,3,Monitor & Troubleshoot
+,,View domains,,domain-view.html,3,Monitor & Troubleshoot
+,,View SageMaker AI resources in your domain,,sm-console-domain-resources-view.html,3,Monitor & Troubleshoot
+,,Shut down SageMaker AI resources,,sm-console-domain-resources-shut-down.html,3,Monitor & Troubleshoot
+,,Resource shutdown reference,,sm-shut-down-resources-per-feature.html,3,Monitor & Troubleshoot

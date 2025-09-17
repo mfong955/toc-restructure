@@ -1,38 +1,38 @@
-Level 1,Level 2,Level 3,Level 4,Page Title,Href,ToC Level
-"Domain overview","","","","Domain overview","gs-studio-onboard.html",1
-"","SageMaker AI domain entities","","","SageMaker AI domain entities","sm-domain.html",2
-"","","Complete prerequisites","","Complete prerequisites","domain-prerequisites.html",3
-"","","Hide ML tools and apps in the Studio UI","","Hide ML tools and apps in the Studio UI","studio-updated-ui-customize-tools-apps.html",3
-"","","","Hide machine learning tools and applications on a domain level","Hide machine learning tools and applications on a domain level","studio-updated-ui-customize-tools-apps-domain.html",4
-"","","","Hide machine learning tools and applications on a user level","Hide machine learning tools and applications on a user level","studio-updated-ui-customize-tools-apps-user.html",4
-"","","Hide instance types and images in the Studio UI","","Hide instance types and images in the Studio UI","studio-updated-ui-customize-instances-images.html",3
-"","","","Hide instance types and images on a domain level","Hide instance types and images on a domain level","studio-updated-ui-customize-instances-images-domain.html",4
-"","","","Hide instance types and images on a user level","Hide instance types and images on a user level","studio-updated-ui-customize-instances-images-user.html",4
-"","","Multiple domains overview","","Multiple domains overview","domain-multiple.html",3
-"","","","Automatic tag propagation","Automatic tag propagation","domain-multiple-tag.html",4
-"","","","How domain resource display filtering works","How domain resource display filtering works","domain-multiple-filtering.html",4
-"","","","Backfill domain tags","Backfill domain tags","domain-multiple-backfill.html",4
-"","","Isolate domain resources","","Isolate domain resources","domain-resource-isolation.html",3
-"","","Default settings for domains","","Default settings for domains","domain-set-defaults.html",3
-"","","Custom tag propagation","","Custom tag propagation","custom-tags.html",3
-"","","","Add custom tags to resources","Add custom tags to resources","custom-tags-add.html",4
-"","","","Opt-out of custom tag propagation","Opt-out of custom tag propagation","custom-tags-opt-out.html",4
-"","","Adding a custom file system","","Adding a custom file system","domain-custom-file-system.html",3
-"","","View domain environment details","","View domain environment details","domain-space-environment.html",3
-"","","View domains","","View domains","domain-view.html",3
-"","","Edit domain settings","","Edit domain settings","domain-edit.html",3
-"","","Delete a domain","","Delete a domain","gs-studio-delete-domain.html",3
-"","","Domain user profiles","","Domain user profiles","domain-user-profile.html",3
-"","","","Add user profiles","Add user profiles","domain-user-profile-add.html",4
-"","","","Remove user profiles","Remove user profiles","domain-user-profile-remove.html",4
-"","","","View user profiles in a domain","View user profiles in a domain","domain-user-profile-view.html",4
-"","","","View user profile details","View user profile details","domain-user-profile-describe.html",4
-"","","IAM Identity Center groups in a domain","","IAM Identity Center groups in a domain","domain-groups.html",3
-"","","","View groups and users","View groups and users","domain-groups-view.html",4
-"","","","Add groups and users","Add groups and users","domain-groups-add.html",4
-"","","","Remove groups","Remove groups","domain-groups-remove.html",4
-"","","Understanding spaces and execution roles","","Understanding spaces and execution roles","execution-roles-and-spaces.html",3
-"","","View SageMaker AI resources in your domain","","View SageMaker AI resources in your domain","sm-console-domain-resources-view.html",3
-"","","Shut down SageMaker AI resources in your domain","","Shut down SageMaker AI resources in your domain","sm-console-domain-resources-shut-down.html",3
-"","","Where to shut down resources per SageMaker AI features","","Where to shut down resources per SageMaker AI features","sm-shut-down-resources-per-feature.html",3
-"","Choose an Amazon VPC","","","Choose an Amazon VPC","onboard-vpc.html",2
+Level 1,Level 2,Level 3,Level 4,Href,ToC Level,Page Summary
+Domain overview,,,,gs-studio-onboard.html,1,
+,SageMaker AI domain entities,,,sm-domain.html,2,
+,,Complete prerequisites,,domain-prerequisites.html,3,
+,,Hide ML tools and apps in the Studio UI,,studio-updated-ui-customize-tools-apps.html,3,
+,,,Hide machine learning tools and applications on a domain level,studio-updated-ui-customize-tools-apps-domain.html,4,
+,,,Hide machine learning tools and applications on a user level,studio-updated-ui-customize-tools-apps-user.html,4,
+,,Hide instance types and images in the Studio UI,,studio-updated-ui-customize-instances-images.html,3,
+,,,Hide instance types and images on a domain level,studio-updated-ui-customize-instances-images-domain.html,4,
+,,,Hide instance types and images on a user level,studio-updated-ui-customize-instances-images-user.html,4,
+,,Multiple domains overview,,domain-multiple.html,3,
+,,,Automatic tag propagation,domain-multiple-tag.html,4,
+,,,How domain resource display filtering works,domain-multiple-filtering.html,4,
+,,,Backfill domain tags,domain-multiple-backfill.html,4,
+,,Isolate domain resources,,domain-resource-isolation.html,3,
+,,Default settings for domains,,domain-set-defaults.html,3,
+,,Custom tag propagation,,custom-tags.html,3,
+,,,Add custom tags to resources,custom-tags-add.html,4,
+,,,Opt-out of custom tag propagation,custom-tags-opt-out.html,4,
+,,Adding a custom file system,,domain-custom-file-system.html,3,
+,,View domain environment details,,domain-space-environment.html,3,
+,,View domains,,domain-view.html,3,
+,,Edit domain settings,,domain-edit.html,3,
+,,Delete a domain,,gs-studio-delete-domain.html,3,
+,,Domain user profiles,,domain-user-profile.html,3,
+,,,Add user profiles,domain-user-profile-add.html,4,
+,,,Remove user profiles,domain-user-profile-remove.html,4,
+,,,View user profiles in a domain,domain-user-profile-view.html,4,
+,,,View user profile details,domain-user-profile-describe.html,4,
+,,IAM Identity Center groups in a domain,,domain-groups.html,3,
+,,,View groups and users,domain-groups-view.html,4,
+,,,Add groups and users,domain-groups-add.html,4,
+,,,Remove groups,domain-groups-remove.html,4,
+,,Understanding spaces and execution roles,,execution-roles-and-spaces.html,3,
+,,View SageMaker AI resources in your domain,,sm-console-domain-resources-view.html,3,
+,,Shut down SageMaker AI resources in your domain,,sm-console-domain-resources-shut-down.html,3,
+,,Where to shut down resources per SageMaker AI features,,sm-shut-down-resources-per-feature.html,3,
+,Choose an Amazon VPC,,,onboard-vpc.html,2,
